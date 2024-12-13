@@ -1,4 +1,4 @@
-.divi{
+ .divi{
     display: flex;
     background-color: black;
     position: sticky;
@@ -31,7 +31,43 @@
 .dive p{
     color: orangered;
 }
-#dom{
+.banière{
+    background: url("Formation-en-ligne-.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+    width: 100%;
+    background-color: blueviolet;
+    opacity: 1,8;
+    animation: khasida 10s infinite;
+    
+}
+@keyframes khasida{
+    0%{
+        background: url("banière3.jpg");
+        
+    }
+    30%{
+        background: url("Formation-en-ligne-.jpeg");
+    
+    }
+    60%{
+        background: url("robert.jpg");
+        
+    }
+    100%{
+        background: url("al\ maktom.jpg");
+        
+    }
+
+}
+.banière marquee{
+    align-items: center;
+    margin-top: 200px;
+    color: aqua;
+    font-size: 2rem;
+}
+/*#dom{
     padding: 0%;
     margin: 0%;
     background-color: floralwhite;
@@ -133,4 +169,4 @@ body{
     53%{background-image: url("téléchargement\ \(1\).jpg");}
     66%{background-image: url("Sans\ titre.jpg");}
     100%{background-image: url("Sans\ titre.jpg");}
-}
+} */
